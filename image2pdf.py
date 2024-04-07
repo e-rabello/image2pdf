@@ -1,6 +1,6 @@
 from fpdf import FPDF
 pdf = FPDF()
-# imagelist is the list with all image filenames
+# imagelist contains all image filenames
 imagelist = ['image1.png', 'image2.png', 'image3.png']
 
 for image in imagelist:
